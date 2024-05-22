@@ -1,7 +1,7 @@
-Pneumonia-Detection-Flask
+##Pneumonia-Detection-Flask
 This project leverages the power of Convolutional Neural Networks (CNN) to detect pneumonia from chest X-ray images. The trained model is deployed using a Flask web application, making it accessible and easy to use for healthcare professionals and researchers.
 
-Overview
+##Overview
 Pneumonia is a serious lung infection that can be life-threatening if not diagnosed and treated promptly. Traditional methods of diagnosis can be time-consuming and require expert analysis. This project aims to provide a fast, accurate, and automated tool for pneumonia detection using deep learning techniques.
 
 Features
