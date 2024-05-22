@@ -10,27 +10,6 @@ Web Interface: A user-friendly Flask web application that allows users to upload
 Visualization: Displays the uploaded X-ray image and prediction results on the web interface.
 Scalability: Designed to be easily deployable on cloud platforms for broader accessibility.
 
-##Project Structure
-Pneumonia-Detection-Flask/
-├── app/
-│   ├── __init__.py       # Initializes the Flask app
-│   ├── routes.py         # Contains the endpoints for the Flask app
-│   ├── static/           # Static files (CSS, JS, images)
-│   └── templates/        # HTML templates for the web app
-├── models/
-│   └── cnn_model.h5      # Trained CNN model
-├── data/
-│   └── sample_images/    # Sample images for testing (if any)
-├── notebooks/
-│   └── data_preprocessing.ipynb  # Jupyter notebooks for data preprocessing
-├── src/
-│   ├── preprocess.py     # Data preprocessing scripts
-│   └── predict.py        # Prediction scripts using the model
-├── requirements.txt      # Python dependencies
-├── run.py                # Entry point to start the Flask app
-├── README.md             # Project overview
-└── .gitignore            # Files to ignore in git
-
 ##Installation
 1-Clone the repository:
 git clone https://github.com/yourusername/Pneumonia-Detection-Flask.git
